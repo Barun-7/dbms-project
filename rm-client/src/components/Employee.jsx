@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-function Employee() {
-        return (
-            <div>
-                <h1>Employee</h1>
-            </div>
-        );
-    }
+const Employee = () => {
+  return <h1>Employee</h1>;
+};
 
 export default Employee;
